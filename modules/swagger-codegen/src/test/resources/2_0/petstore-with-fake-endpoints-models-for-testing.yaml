@@ -1451,6 +1451,12 @@ definitions:
     - "placed"
     - "approved"
     - "delivered"
+  OuterEnumDuplicate:
+    type: "string"
+    enum:
+      - "placed"
+      - "approved"
+      - "delivered"
   OuterComposite:
     type: object
     properties:
@@ -1492,6 +1498,12 @@ definitions:
       - 8
       - 9
       - 10
+  EnumNumberString:
+    type: string
+    description: Multiple enums with underscore delim number suffix
+    enum:
+      - "1"
+      - "2"
 externalDocs:
   description: Find out more about Swagger
   url: 'http://swagger.io'
