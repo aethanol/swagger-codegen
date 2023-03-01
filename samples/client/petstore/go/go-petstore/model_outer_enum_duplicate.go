@@ -10,11 +10,11 @@
 
 package petstore
 
-type OuterEnum string
+type OuterEnumDuplicate string
 
-// List of OuterEnum
+// List of OuterEnumDuplicate
 const (
-	PLACED_OuterEnum OuterEnum = "placed"
-	APPROVED_OuterEnum OuterEnum = "approved"
-	DELIVERED_OuterEnum OuterEnum = "delivered"
+	PLACED_OuterEnumDuplicate OuterEnumDuplicate = "placed"
+	APPROVED_OuterEnumDuplicate OuterEnumDuplicate = "approved"
+	DELIVERED_OuterEnumDuplicate OuterEnumDuplicate = "delivered"
 )

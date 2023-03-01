@@ -9,12 +9,11 @@
  */
 
 package petstore
+// EnumNumberString : Multiple enums with underscore delim number suffix
+type EnumNumberString string
 
-type OuterEnum string
-
-// List of OuterEnum
+// List of EnumNumberString
 const (
-	PLACED_OuterEnum OuterEnum = "placed"
-	APPROVED_OuterEnum OuterEnum = "approved"
-	DELIVERED_OuterEnum OuterEnum = "delivered"
+	_1_EnumNumberString EnumNumberString = "1"
+	_2_EnumNumberString EnumNumberString = "2"
 )
